@@ -126,7 +126,7 @@ print(summary_model)
 ######################################################################################################################################
 
 #...............................
-#####Q5) Use the model developed in Question 4 to predict the LBM for a male whose BMI is 25.
+# Q5 - Use the model developed in Question 4 to predict the LBM for a male whose BMI is 25.
 #...............................
 # Fitting the linear model for male data
 model <- lm(LBM ~ BMI, data = male_data1)
@@ -138,7 +138,7 @@ Predict_value
 ######################################################################################################################################
 
 #..........................
-#####Q6) Assess the predictive performance of the model.
+# Q6 - Assess the predictive performance of the model.
 #..........................
 var_residuals <- model$residuals
 var_RMSE <- sqrt(mean(var_residuals^2))
